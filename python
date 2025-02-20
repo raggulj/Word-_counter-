@@ -1,0 +1,8 @@
+def word_counter(text):
+    words = text.split()
+    return len(words)
+
+# Example usage
+if __name__ == "__main__":
+    user_input = input("Enter a text: ")
+    print("Word count:", word_counter(user_input))
